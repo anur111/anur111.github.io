@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>The Oven's Secret - Bakery</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+       }
+       header {
+           background-color: #AEEEEE; /* Pastel Blue */
+           text-align: center;
+           padding: 140px;
+       }
+       h1 {
+           font-size: 100px; /* Updated font size to 40pts */
+           color: #FFB6C1; /* Pastel Pink */
+       }
+       h2 {
+           font-size: 24px;
+           color: #FF69B4; /* Darker Pink */
+       }
+       .logo {
+           max-width: 100px;
+       }
+       nav {
+           background-color: #AEEEEE; /* Pastel Blue */
+           text-align: center;
+           padding: 10px;
+       }
+       nav a {
+           text-decoration: none;
+           color: #333;
+           margin: 0 10px;
+       }
+       .gallery {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-evenly; /* Images evenly spaced horizontally */
+       }
+       .gallery img
+     .div1 {
+ width: 300px;
+ height: 100px;
+ border: 1px;
+ color: #69dcff;
+ box-sizing: border-box;
+}
+     {
+           width: 40%;
+           height: 50%;
+           padding: 5px;
+           box-sizing: border-box;
+       }
+       footer {
+           background-color: #AEEEEE; /* Pastel Blue */
+           text-align: center;
+           padding: 10px;
+       }
+   </style>
+</head>
+<body>
+   <header>
+       <h1><span style="color: #FFB6C1; font-weight: bold;">The Oven's Secret</span></h1>
+       <img src="https://i.pinimg.com/564x/12/bc/b4/12bcb4e0fd2cbcb0089db2f7244d9fab.jpg"
+            alt="Cupcake Logo" class="logo">
+       <h2>Baked from the heart</h2>
+   </header>
+   
+   
+    <nav>
+       <h2><a href="#about">About</a>
+       <a href="#gallery">Gallery</a>
+       <a href="#contact">Contact</a>
+   </nav>
+   
+   <section id="about">
+       
+     <div>
+           <i class="about-icon">&#127968;</i>
+           <p> <b>#4 Gaston Street, Montrose, Chaguanas<b> <p/>
+       </div>
+     <h2> Our Story <h2/>
+       <p><h4>Welcome to The Oven's Secret, where all of our products are created with love and care. We take pride in using healthy organic ingredients sourced locally to create mouthwatering pastries, cookies, celebration cakes, and more. Our passion for baking has a family oriented history, and our values are deeply rooted in providing our community with wholesome, flavorful delights.
+         
+       <p>  <b>We believe in the goodness of fresh, organic ingredients and the joy of sharing them with you.</p>
+       <div class="gallery">
+           <div>
+              <body style="background-color:#eac5eb;">
+               <img src="https://i.pinimg.com/564x/49/37/9b/49379bcb9c0873d38dcfb7885b481f8d.jpg"
+                    alt="Image 1">
+               <p>Delicious Cupcakes</p>
+                <p> ...perfect for those sweet tooth cravings<p/>
+              
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/564x/77/02/fa/7702fa39d7360658df0399a2f5b6afe9.jpg"
+                    alt="Image 2">
+             
+               <p>Fresh Pastries</p>
+              <p>....indulge in our decadent pastries, made by our very own highly trained bakers</p>
+               
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/564x/c5/d0/01/c5d001c4e71c0ed32075f798f9039d37.jpg"
+                    alt="Image 3">
+             <p>Hand Crafted Cookies</p>
+              <p>......made with products you can trust, all of our butters and oils are sourced from companies that do not manufacture with peanuts and various other nuts that many are commonly allergic to</p>
+              
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/564x/e8/89/83/e8898387656969dc60e19cd5c2dafe1f.jpg"
+                    alt="Image 4">
+               <p>Specialty Cakes</p>
+              <p>.....for big events or small intimate gatherings, we will cater to your needs!</p>
+               
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/564x/79/0b/c8/790bc8293be2f9429502757ee48b73fd.jpg"
+                    alt="Image 5">
+               <p> Wholesome Bread </p>
+              <p>....gluten free and all products are organic and locally sourced</p>
+              
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/564x/19/57/d6/1957d6f4e377588b29d274e7cd0067b5.jpg"
+                    alt="Image 6">
+           
+ 
+               <p>Coffee </p>
+              <p>...... whether you prefer it piping hot, or chilled on ice, we have it</p>
+               
+           </div>
+             
+       </div>
+         <section id="gallery">
+       <h2>Our Creations</h2>
+       <div class="gallery">
+           <div>
+               <img src="https://i.pinimg.com/564x/eb/49/3e/eb493e34213b4c4a167cee028ae7f0ca.jpg" alt="Image 1">
+               <p>Bon au Chocolat</p>
+                <p>[$8.00]<p/>
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/564x/06/73/35/067335e5947bae0157f692673ae07a5e.jpg" alt="Image 2">
+              <p>Prailine and creme</p>
+               <p>[$12.00]<p/>
+           </div>
+           
+           <div>
+               <img src="https://i.pinimg.com/564x/04/aa/dd/04aadd924fba56e1fa6219f8932573d5.jpg" alt="Image 3">
+               <p>Rasberry Lavender Delight</p>
+                <p>[$12.00]<p/>
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/474x/f5/75/2e/f5752e00490ac297a620f8776f4b4c5b.jpg" alt="Image 4">
+               <p>Pumpkin Spiced Cupcakes</p>
+                <p>[$6.00]<p/>
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/474x/86/e3/5a/86e35a7fd2824f2fd3fdabdcb4df5a5b.jpg" alt="Image 5">
+               <p>Custard Tartlette</p>
+                <p>[$8.00]<p/>
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/474x/67/64/a2/6764a23712648c4db8370b1c0f18ebee.jpg" alt="Image 6">
+               <p>Red Velvet Mini Cakes</p>
+                <p>[$8.00]<p/>
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/474x/f4/1a/e8/f41ae87f703068416b5d5f8da81a537b.jpg" alt="Image 7">
+               <p>French Macarons</p>
+                <p>[$10.00]<p/>
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/474x/50/ff/2f/50ff2f37df8d541b416e4091ad39aaf0.jpg" alt="Image 8">
+               <p>Berry un Cup</p>
+                <p>[$12.00]<p/>
+           </div>
+           
+           <div>
+               <img src="https://i.pinimg.com/474x/75/5b/d6/755bd6b591749158f9e78bdb182ad1af.jpg" alt="Image 9">
+               <p>Peanut Butter Buttercream Cake</p>
+                <p>[$10.00/Slice]<p/>
+           </div>
+           
+           <div>
+               <img src="https://i.pinimg.com/564x/5f/d7/5a/5fd75ad7aadfae55ef43595ba154acc5.jpg" alt="Image 10">
+               <p>Caramel Waffle Cake</p>
+                <p>[$7.00]<p/>
+           </div>
+         
+           <div>
+               <img src="https://i.pinimg.com/564x/89/34/1d/89341d9f5514eb92dcc976ff47bb3e58.jpg" alt="Image 11">
+             
+           <p>Lemon Merangue Custard</p>
+            <p>[$5.00]<p/>
+           </div>
+           <div>
+               <img src="https://i.pinimg.com/564x/20/7d/76/207d767f3e7fe3aec1f2d220ac476cd3.jpg" alt="Image 12">
+               
+           <p>French Vanilla Orchid Brulee</p>
+            <p>[$8.00]<p/>
+           </div>
+       </div>
+   </section>
+ 
+   <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfC9goz2pUJs86BNtFpNULFLkRQEk7RcL2HC9jhvc0t9di_-w/viewform?usp=pp_url" target="_blank"style="font-family:garamond
+;">CLICK HERE TO ORDER NOW!</a> 
+     </p>
+ 
+     </div>
+   <section id="contact">
+       <h2>Contact Us</h2>
+    <body style="background-color:#eac5eb;">
+   
+       <p>
+           <img src="https://cdn-icons-png.flaticon.com/512/4812/4812397.png" alt="email" style="width:110px;height:100px;">
+           <a href="mailto:theovenssecret1@gmail.com" style="font-family:helvetica;">SEND AN EMAIL</a>
+       </p>
+       <p>
+  
+           <!-- Call or Text Button displayed on mobile devices -->
+   <div id="call-or-text-button">
+     <div class="clearfix">
+       <div class="text-call call-img">
+ 
+         <div class="clearfix button-wrapper">
+ 
+           <img class="mobile-button text pull-left" src="//i.imgur.com/u2NoJie.png" />
+           <a class="white pull-left" target="_blank" href="http://zwt.co/sms?t=8559479447&body=Hi%20I%27m%20interested%20to%20learn%20more%20about%20Zipwhip."style="font-family:helvetica;">TEXT</a>
+         </div>
+       </div>
+ 
+       <div class="text-call text-image">
+         <div class="clearfix button-wrapper">
+ 
+           <img class="mobile-button call pull-left" src="//i.imgur.com/3CGhawJ.png" />
+           <a class="pull-left black" target="_blank" href="tel:18684977953"style="font-family:helvetica;">CALL</a>
+         </div>
+       </div>
+ 
+     </div>
+   </div>
+       </p>
+       <p>
+           <img src="https://cdn.icon-icons.com/icons2/2714/PNG/512/instagram_logo_thin_icon_171701.png" alt="instagram" style="width:110px;height:100px;">
+           <a href="https://www.instagram.com/theovenssecret1/" target="_blank" style="font-family:helvetica;">VISIT OUR INSTAGRAM</a>
+       </p>
+       <p>
+           <img src="https://cdn-icons-png.flaticon.com/512/3210/3210042.png" alt="map" style="width:110px;height:100px;">
+           <a href="https://www.google.com/maps/place/4+Gaston+St,+Montrose/@10.5164586,-61.408604,17z/data=!3m1!4b1!4m6!3m5!1s0x8c35f977072bda87:0x51994ab564e5af9f!8m2!3d10.5164533!4d-61.4060291!16s%2Fg%2F11f6lqf59d?entry=ttu" target="_blank" style="font-family:helvetica;">VISIT US</a>
+       </p>
+   </section>
+   
+   <footer>
+       <p>&copy; 2021 The Oven's Secret Bakery | All rights reserved</p>
+   </footer>
+</body>
+</html>
+ 
